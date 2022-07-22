@@ -31,6 +31,7 @@ import SideBar from "./Components/Pages/Sidebar";
 import MainPage from "./Components/Pages/MainPage";
 import CalenderPage from "./Components/Pages/Calender"
 import Todos from "./Components/Pages/Todo";
+import Board from "./Components/Pages/Board";
 
 function App() {
 
@@ -42,6 +43,8 @@ return (
 		<Route exact path="/Login" element={<Login/>}/>
 		<Route exact path="/MainPage" element={<MainPage/>}/>
 		<Route exact path="/todo" element={<Todos/>}/>
+		<Route exact path="/Board" element={<Board/>}/>
+
 	</Routes>
 	</BrowserRouter>
 	</>

@@ -15,8 +15,8 @@ export default props => {
         Home
       </a>
 
-      <a className="menu-item" href="./classes">
-        Classes
+      <a className="menu-item" href="./Board">
+        White Board
       </a>
 
       <a className="menu-item" href="./calender">
@@ -25,6 +25,10 @@ export default props => {
 
       <a className="menu-item" href="./todo">
         To-do
+      </a>
+
+      <a className="menu-item" href="./Login">
+        Logout
       </a>
     </Menu>
     {/* <h1>Main Page</h1> */}

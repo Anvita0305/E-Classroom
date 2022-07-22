@@ -3,6 +3,8 @@ import Sidebar from './Sidebar';
 import '../../CSS/index.css';
 import AddIcon from '@mui/icons-material/Add';
 import TodoItems from './TodoItems';
+import PersonIcon from '@mui/icons-material/Person';
+import ListIcon from '@mui/icons-material/List';
 
 const Todos = () => {
   const [input, setInput] = useState("");
@@ -62,12 +64,18 @@ const Todos = () => {
           <br /><br />
           <div style={{ textAlign: 'center' }}>
             <form onSubmit={addTodo}>
+            <PersonIcon style={{fontSize:'2rem'}}/>
+            <input type="text" placeholder="Enter Your UserName" />
+            <br></br>
+            <br></br>
+            <ListIcon style={{fontSize:'3rem'}}/>
               <input type='text' value={input} placeholder='Add Todo' style={{ width: '50%', height: '3rem' }} onChange={(e) => {
                 setItemName(e.target.value);
                 setInput(e.target.value);
               }} />
               <br /><br></br>
               <button type='submit' value="todo" style={{ width: '10%', height: '3rem', borderTop: 'none', borderLeft: 'none', borderRadius: '1rem' }} onClick={makeList}><AddIcon /></button>
+              <br></br>
             </form>
             <ol>
               {/* <li>{input}</li> */}
