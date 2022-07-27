@@ -58,6 +58,7 @@ function Login() {
             >
               OnlineEdu
             </h1> */}
+            <br></br><br></br>
             <h1
               style={{
                 color: "white",
@@ -71,6 +72,7 @@ function Login() {
             </h1>
             <br />
           </span>
+          <br></br><br></br>
           <div
             className="container2"
             style={{ backgroundColor: "white", borderRadius: "1rem" }}

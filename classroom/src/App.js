@@ -29,7 +29,7 @@ import Login from "./Components/Navbar/mainLogin";
 import "./CSS/style.css";
 import SideBar from "./Components/Pages/Sidebar";
 import MainPage from "./Components/Pages/MainPage";
-import CalenderPage from "./Components/Pages/Calender"
+import Calender from "./Components/Pages/Calender"
 import Todos from "./Components/Pages/Todo";
 import Board from "./Components/Pages/Board";
 
@@ -44,6 +44,7 @@ return (
 		<Route exact path="/MainPage" element={<MainPage/>}/>
 		<Route exact path="/todo" element={<Todos/>}/>
 		<Route exact path="/Board" element={<Board/>}/>
+		<Route exact path="/Calender" element={<Calender/>}/>
 
 	</Routes>
 	</BrowserRouter>

@@ -78,6 +78,7 @@ const Register=()=> {
   return (
     <>
       <div className="main">
+      <br></br><br></br>
         <h1
           style={{
             color: "white",
@@ -88,6 +89,7 @@ const Register=()=> {
         >
           Register
         </h1>
+        <br></br><br></br>
         <div
           className="container2"
           style={{ backgroundColor: "white", borderRadius: "1rem" }}

@@ -27,6 +27,10 @@ export default props => {
         To-do
       </a>
 
+      <a className="menu-item" href="./Calender">
+        Calender
+      </a>
+
       <a className="menu-item" href="./Login">
         Logout
       </a>
