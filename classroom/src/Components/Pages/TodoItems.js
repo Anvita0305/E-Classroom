@@ -3,17 +3,13 @@ import DeleteIcon from '@mui/icons-material/Delete';
 
 const TodoItems = (props) => {
   const [deletetodo, setdeletetodo] = useState("");
-    async function deleteTD(event) {
+    async function deleteTD(event,username) {
         event.preventDefault();
-        const response = await fetch("http://localhost:8000/api/deletetodo", {
+        const response = await fetch("http://localhost:8000/api/deletetodo"+username, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
           },
-          // parse the string to store it in required format
-          body: JSON.stringify({
-            deletetodo,
-          }),
         })
         const data = await response.json()
         console.log(data);
@@ -21,11 +17,11 @@ const TodoItems = (props) => {
 
     return (
         <>
-            <div>
-                <div style={{display:'flex',flexDirection:'row'}}>
-                    <li>{props.text}</li>
+            <div style={{textAlign:'center'}}>
+                <div style={{display:'flex',flexDirection:'row',textAlign:'center'}}>
+                    <h5><li style={{textAlign:'center'}}>{props.text}</li></h5>
                     <form onSubmit={deleteTD}>
-                    <button type="button" value="deletetodo" onClick={()=>{setdeletetodo(props.text);props.onSelect(props.id)}}><DeleteIcon/></button>
+                       <button type="button" value="deletetodo" onClick={()=>{setdeletetodo(props.text);props.onSelect(props.id);}} >Delete</button>
                     </form>
                 </div>
             </div>

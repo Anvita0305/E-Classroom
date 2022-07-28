@@ -17,7 +17,7 @@ const Register=()=> {
 
   async function registerUser(event) {
     event.preventDefault();
-    const response =await fetch("http://localhost:8000/api/register", {
+    const response =await fetch("http://localhost:8000/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -107,7 +107,7 @@ const Register=()=> {
                 <div>
                   <input
                     type="text"
-                    placeholder="First Name"
+                    placeholder="Username"
                     value={firstName}
                     onChange={(e) => {
                       setfirstName(e.target.value);
@@ -116,7 +116,7 @@ const Register=()=> {
                   ></input>
                   <input
                     type="text"
-                    placeholder="Last Name"
+                    placeholder="Full Name"
                     value={lastName}
                     onChange={(e) => {
                       setlastName(e.target.value);

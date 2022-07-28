@@ -59,7 +59,7 @@ function Board() {
                     // ref={(canvasDraw) => (this.saveableCanvas = canvasDraw)}
                     brushColor={canvas}
                     brushRadius={brush}
-                    canvasWidth={1000}
+                    canvasWidth={1250}
                     canvasHeight={1000}
                     id='canvas' />
             </div>

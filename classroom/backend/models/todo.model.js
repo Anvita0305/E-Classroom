@@ -1,7 +1,8 @@
 const mongoose=require('mongoose')
 
 const TodoListItems=new mongoose.Schema({
-    itemName: {type:String,required: true},
+    username:{type:String},
+    itemName: [String],
 }, {collection:'todo-items'}
 )
 
