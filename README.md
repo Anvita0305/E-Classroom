@@ -3,7 +3,7 @@
 e-Classroom is a collaborative web conferencing tool which enables students and teacher to interact remotely. It has various features which make the teaching-learning process interesting.
 
 # Features
-- Online whiteboard:
+- Online whiteboard
 - Personalized todos
 - Group video call
 - Group chat
@@ -14,6 +14,27 @@ e-Classroom is a collaborative web conferencing tool which enables students and 
 
 
 Insert gif or link to demo
+
+---
+## Tech Stack
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> 
+  <a href="https://nodejs.org/" target="_blank" rel="noreferrer"> 
+    <img src="https://skillicons.dev/icons?i=nodejs&theme=light" alt="Node.js" width="40" height="40"/> 
+  </a> 
+  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> 
+    <img src="https://skillicons.dev/icons?i=react&theme=light" alt="React" width="40" height="40"/> 
+  </a> 
+  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> 
+    <img src="https://skillicons.dev/icons?i=mongodb&theme=light" alt="Mongodb" width="40" height="40"/> 
+  </a> 
+  <a href="https://expressjs.com/" target="_blank" rel="noreferrer"> 
+    <img src="https://skillicons.dev/icons?i=express&theme=light" alt="Express" width="40" height="40"/> 
+  </a> 
+  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> 
+    <img src="https://skillicons.dev/icons?i=typescript&theme=light" alt="Typescript" width="40" height="40"/> 
+  </a> 
+</p>
 
 
 ## Installation
