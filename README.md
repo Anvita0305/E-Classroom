@@ -12,8 +12,9 @@ e-Classroom is a collaborative web conferencing tool which enables students and 
 ## Demo
 
 
+https://user-images.githubusercontent.com/78889572/183274352-2fe0a388-ddcf-41af-924e-0c15d514501d.mp4
 
-Insert gif or link to demo
+
 
 ---
 ## Tech Stack
